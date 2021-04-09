@@ -8,8 +8,42 @@ body {
    height: 100vh;
   background-size: cover;
 	background: url("assets/h%C3%A1tt%C3%A9rk%C3%A9p.jpg") center center fixed;
+	
+}
+
+
+	.container {
+  float: right;
+  background-color: #C0C0C0;
+  text-align: center;
+	width: 50%;
+  margin: 5%;
+  padding: 5%;
+	border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
   
-  
+}
+
+.container2 {
+	float: right;
+  background-color: #C0C0C0;
+  text-align: center;
+	width: 50%;
+  margin: 5%;
+  padding: 5%;
+	border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
+		
+}
+
+.container:hover {
+	transform:scaleY(1.5);
+}
+
+.container2:hover {
+	transform:scaleY(1.5);
 }
 
 .profile-card {
